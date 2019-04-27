@@ -21,12 +21,14 @@ public class Komputer {
 
     public void memasang(CPU cpu){
         this.cpu=cpu;
-        System.out.println("CPU: " + this.cpu.getCPUData() + " GHz " + "dicabut");
+        System.out.println("CPU: " + this.cpu.getCPUData() + " GHz " + "dipasang");
     }
 
     public void mencabut(CPU cpu){
         this.cpu=cpu;
-        System.out.println("CPU: " + this.cpu.getCPUData() + " GHz " + "dipasang");
+        System.out.println("CPU: " + this.cpu.getCPUData() + " GHz " + "dicabut");
+        this.cpu = null;
+
     }
     
     public void cetakInfo(){
