@@ -19,7 +19,7 @@ public class CPU {
     }
     
     public String getCPUData(){
-        return(this.nama+""+this.kecepatan);
+        return(this.nama+" "+this.kecepatan);
     }
 
 
